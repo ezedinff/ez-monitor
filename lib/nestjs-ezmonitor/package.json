@@ -1,0 +1,30 @@
+{
+  "name": "nestjs-ezmonitor",
+  "version": "1.0.1",
+  "description": "A NestJS library for ezmonitor integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "nestjs",
+    "monitoring",
+    "ezmonitor"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@nestjs/common": "^10.3.10",
+    "@nestjs/core": "^10.3.10",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.4"
+  }
+}
